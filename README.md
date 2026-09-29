@@ -15,6 +15,37 @@
 
 ---
 
+## 🚀 Instalación
+
+1. Clonar el repositorio
+
+   ```bash
+   git clone https://github.com/GalvanSierra/data_analyst_event_02.git
+   cd data_analyst_event_02
+   ```
+
+2. Crear el entorno virtual
+
+   ```bash
+   python -m venv .venv
+   ```
+
+3. Activar el entorno virtual
+
+   ```bash
+   # Windows
+   .venv\Scripts\activate
+
+   # macOS / Linux
+   source .venv/bin/activate
+   ```
+
+4. Instalar las dependencias
+
+   ```bash
+     pip install -r requirements.txt
+   ```
+
 # 1. Descripción del proyecto
 
 El presente proyecto tiene como objetivo aplicar los conocimientos adquiridos durante las primeras semanas de la asignatura de **Análisis de Datos** mediante la exploración y análisis de diferentes bases de datos.
