@@ -9,7 +9,7 @@
 
 ## Integrantes
 
-1 -
+1 - Rodríguez Franco Federico
 2 -
 3 - Galvan Sierra David
 
@@ -91,3 +91,32 @@ La base de datos contiene **70.000 imágenes**, distribuidas en 10 categorías d
 Fashion-MNIST fue desarrollado como un conjunto de datos alternativo a MNIST para evaluar algoritmos de aprendizaje automático utilizando imágenes de artículos de moda.
 
 De acuerdo con su origen, se considera una fuente de datos **secundaria**, debido a que los datos fueron recopilados y organizados previamente por sus creadores para ser utilizados en investigación, experimentación y evaluación de algoritmos.
+
+## 2.2 Base de datos seleccionada: Air Quality (UCI)
+
+Para la exploración de datos de tipo **tabular / serie temporal** se seleccionó **Air Quality**,
+un conjunto de datos de mediciones de calidad del aire en una ciudad italiana.
+
+El conjunto contiene **9.471 mediciones horarias** (marzo de 2004 a febrero de 2005) de
+concentraciones de gases (`CO`, `C6H6`, `NOx`, `NO2`, `O3`) y variables meteorológicas
+(`T`, `RH`, `AH`), en **15 atributos**. Los valores faltantes están codificados como `-200`.
+
+### Fuente
+
+**Fuente:** De Vito et al. (2008) — UCI Machine Learning Repository
+**Enlace:** https://archive.ics.uci.edu/dataset/360/air+quality
+
+Los datos provienen de un dispositivo multisensor de gases y un analizador de referencia,
+publicados en la revista *Sensors and Actuators B*. Se consideran una fuente **secundaria**.
+
+### Notebooks
+
+El análisis de esta base se encuentra en `air_quality/notebooks/`:
+
+| Notebook | Contenido |
+|---|---|
+| `01_exploracion_bases_de_datos.ipynb` | Fase 1 — exploración y selección |
+| `02_eda.ipynb` | Fase 2 — análisis exploratorio (EDA) |
+| `03_preprocesamiento_reduccion.ipynb` | Fase 3 — preprocesamiento y PCA |
+
+Los datos (`AirQualityUCI.csv`) no se versionan en el repositorio; consulta `air_quality/data/README.md` para descargarlos.

@@ -219,3 +219,11 @@ __marimo__/
 
 # Others
 personal_notes/
+
+# Datos locales (no versionados; ver air_quality/data/README.md)
+air_quality/data/*.csv
+air_quality/data/*.xlsx
+air_quality/data/*.zip
+
+# Notas de apoyo
+air_quality/info.md
