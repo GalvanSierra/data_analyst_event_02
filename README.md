@@ -9,9 +9,9 @@
 
 ## Integrantes
 
-1 - Rodríguez Franco Federico
-2 -
-3 - Galvan Sierra David
+- Rodríguez Franco Federico
+- Osorio Zapata Juan David
+- Galvan Sierra David
 
 ---
 
