@@ -120,3 +120,30 @@ El análisis de esta base se encuentra en `air_quality/notebooks/`:
 | `03_preprocesamiento_reduccion.ipynb` | Fase 3 — preprocesamiento y PCA |
 
 Los datos (`AirQualityUCI.csv`) no se versionan en el repositorio; consulta `air_quality/data/README.md` para descargarlos.
+
+## 2.3 Base de datos seleccionada: Titanic
+
+Para la exploración de datos de tipo **tabular / clasificación binaria** se seleccionó **Titanic**, un conjunto de datos histórico sobre los pasajeros del naufragio del RMS Titanic, ampliamente utilizado para el análisis y predicción de supervivencia.
+
+El conjunto contiene **891 registros** y **12 variables** que combinan atributos demográficos, socioeconómicos y de viaje (como clase del billete, edad, sexo, tarifa pagada y puerto de embarque).
+
+### Fuente
+
+**Fuente:** Kaggle — Titanic: Machine Learning from Disaster  
+**Plataforma consultada:** Kaggle  
+**Enlace:** https://www.kaggle.com/c/titanic/data  
+
+De acuerdo con su origen, se considera una fuente de datos **secundaria**, recopilada y estructurada a partir de los registros históricos del naufragio para fines de análisis y modelado predictivo.
+
+### Notebooks
+
+El análisis de esta base se encuentra en la carpeta `notebooks/`:
+
+| Notebook | Contenido |
+|---|---|
+| `01_exploracion_bases_datos.ipynb` | Fase 1 — Comparación y selección de la base de datos |
+| `02_EDA_titanic.ipynb` | Fase 2 — Análisis exploratorio (EDA), faltantes, outliers y comprobación de hipótesis |
+| `03_preprocesamiento_pca.ipynb` | Fase 3 — Imputación, codificación, escalado y reducción de dimensionalidad con PCA |
+
+Los datos crudos y preprocesados se encuentran disponibles en la carpeta `data/` (`titanic.csv` y `titanic_preprocesado.csv`), y las visualizaciones generadas se guardan en `images/`.
+
